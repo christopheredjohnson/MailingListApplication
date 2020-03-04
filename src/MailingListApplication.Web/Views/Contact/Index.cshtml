@@ -1,14 +1,21 @@
 ﻿@model MailingListApplication.Web.Models.ContactDTO;
 
     <form asp-controller="Contact" asp-action="Add" method="post">
-        <input asp-for="FirstName">
-        <span asp-validation-for="FirstName"></span>
+        <div asp-validation-summary="All"></div>
 
-        <input asp-for="LastName">
-        <span asp-validation-for="LastName"></span>
+        <div class="form-group">
+            <label asp-for="FirstName">First Name</label>
+            <input asp-for="FirstName" class="form-control">
+        </div>
 
-        <input asp-for="Email">
-        <span asp-validation-for="Email"></span>
+        <div class="form-group">
+            <label asp-for="LastName">Last Name</label>
+            <input asp-for="LastName" class="form-control">
+        </div>
 
-        <button type="submit">Add Contact</button>
+        <div class="form-group">
+            <label asp-for="Email">Email address</label>
+            <input asp-for="Email" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">Add Contact</button>
     </form>
