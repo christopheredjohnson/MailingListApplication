@@ -1,6 +1,7 @@
 ﻿using MailingListApplication.SharedKernal;
 using System.Collections.Generic;
 
+
 namespace MailingListApplication.SharedKernal.Interfaces
 {
     public interface IRepository
