@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailingListApplication.SharedKernal", "src\MailingListApplication.SharedKernal\MailingListApplication.SharedKernal.csproj", "{2BD6B673-67DF-49F3-9CA3-DE85A7EC49E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailingListApplication.SharedKernal", "src\MailingListApplication.SharedKernal\MailingListApplication.SharedKernal.csproj", "{2BD6B673-67DF-49F3-9CA3-DE85A7EC49E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailingListApplication.Core", "src\MailingListApplication.Core\MailingListApplication.Core.csproj", "{30E18FA5-6168-4FDC-9973-0C468E9E79AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailingListApplication.Core", "src\MailingListApplication.Core\MailingListApplication.Core.csproj", "{30E18FA5-6168-4FDC-9973-0C468E9E79AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailingListApplication.Infrastructure", "src\MailingListApplication.Infrastructure\MailingListApplication.Infrastructure.csproj", "{98528E36-E00D-4740-907F-D7A8D9D1ADB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailingListApplication.Infrastructure", "src\MailingListApplication.Infrastructure\MailingListApplication.Infrastructure.csproj", "{98528E36-E00D-4740-907F-D7A8D9D1ADB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailingListApplication.UnitTests", "tests\MailingListApplication.UnitTests\MailingListApplication.UnitTests.csproj", "{05C2EEFA-4EF1-4089-9052-FCAD1FF29FD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailingListApplication.IntegrationTests", "tests\MailingListApplication.IntegrationTests\MailingListApplication.IntegrationTests.csproj", "{8E4EAB4F-88FE-46B1-8338-FFEF2EA67CF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{98528E36-E00D-4740-907F-D7A8D9D1ADB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98528E36-E00D-4740-907F-D7A8D9D1ADB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98528E36-E00D-4740-907F-D7A8D9D1ADB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05C2EEFA-4EF1-4089-9052-FCAD1FF29FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C2EEFA-4EF1-4089-9052-FCAD1FF29FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C2EEFA-4EF1-4089-9052-FCAD1FF29FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C2EEFA-4EF1-4089-9052-FCAD1FF29FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E4EAB4F-88FE-46B1-8338-FFEF2EA67CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E4EAB4F-88FE-46B1-8338-FFEF2EA67CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E4EAB4F-88FE-46B1-8338-FFEF2EA67CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E4EAB4F-88FE-46B1-8338-FFEF2EA67CF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
