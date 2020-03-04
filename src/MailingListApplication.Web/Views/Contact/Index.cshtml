@@ -1,0 +1,14 @@
+﻿@model MailingListApplication.Web.Models.ContactDTO;
+
+    <form asp-controller="Contact" asp-action="Add" method="post">
+        <input asp-for="FirstName">
+        <span asp-validation-for="FirstName"></span>
+
+        <input asp-for="LastName">
+        <span asp-validation-for="LastName"></span>
+
+        <input asp-for="Email">
+        <span asp-validation-for="Email"></span>
+
+        <button type="submit">Add Contact</button>
+    </form>

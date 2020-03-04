@@ -8,5 +8,10 @@
     <ProjectReference Include="..\MailingListApplication.Infrastructure\MailingListApplication.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+  </ItemGroup>
+
 
 </Project>
