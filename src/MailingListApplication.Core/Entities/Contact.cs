@@ -3,7 +3,7 @@
 
 namespace MailingListApplication.Core.Entities
 {
-    class Contact : BaseEntity
+    public class Contact : BaseEntity
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
