@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\MailingListApplication.Infrastructure\MailingListApplication.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\MailingListApplication.Web\MailingListApplication.Web.csproj" />
   </ItemGroup>
 
 </Project>

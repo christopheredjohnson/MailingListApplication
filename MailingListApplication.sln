@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailingListApplication.Core
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailingListApplication.Infrastructure", "src\MailingListApplication.Infrastructure\MailingListApplication.Infrastructure.csproj", "{98528E36-E00D-4740-907F-D7A8D9D1ADB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailingListApplication.UnitTests", "tests\MailingListApplication.UnitTests\MailingListApplication.UnitTests.csproj", "{05C2EEFA-4EF1-4089-9052-FCAD1FF29FD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailingListApplication.UnitTests", "tests\MailingListApplication.UnitTests\MailingListApplication.UnitTests.csproj", "{05C2EEFA-4EF1-4089-9052-FCAD1FF29FD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailingListApplication.IntegrationTests", "tests\MailingListApplication.IntegrationTests\MailingListApplication.IntegrationTests.csproj", "{8E4EAB4F-88FE-46B1-8338-FFEF2EA67CF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailingListApplication.IntegrationTests", "tests\MailingListApplication.IntegrationTests\MailingListApplication.IntegrationTests.csproj", "{8E4EAB4F-88FE-46B1-8338-FFEF2EA67CF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailingListApplication.Web", "src\MailingListApplication.Web\MailingListApplication.Web.csproj", "{F217EC31-D2A8-4B1F-929A-BD8174323638}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{8E4EAB4F-88FE-46B1-8338-FFEF2EA67CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E4EAB4F-88FE-46B1-8338-FFEF2EA67CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E4EAB4F-88FE-46B1-8338-FFEF2EA67CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F217EC31-D2A8-4B1F-929A-BD8174323638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F217EC31-D2A8-4B1F-929A-BD8174323638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F217EC31-D2A8-4B1F-929A-BD8174323638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F217EC31-D2A8-4B1F-929A-BD8174323638}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
